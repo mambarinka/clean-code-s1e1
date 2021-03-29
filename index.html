@@ -7,20 +7,21 @@
 </head>
 <body class="page">
   <header class="header">
-    <img class="header-img" src="./eisenhower-matrix.jpg" alt="Picture of the Eisenhower Matrix for prioritization">
-    <a class="more-info"
+    <img class="header__img" src="./eisenhower-matrix.jpg" 
+        alt="Picture of the Eisenhower Matrix for prioritization">
+    <a class="header__link"
         href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
   </header>
-  <main class="main-page">
+  <main class="tasks">
     <h1 class="visually-hidden">Web-site for making a to-do list</h1>
     <section id="add-element" class="new-task">
       <h2 class="visually-hidden">Section for adding a new to-do list item</h2>
-      <label class="new-task-title new-task-title-add-item" for="new-task">Add Item</label>
-      <input id="new-task" class="input new-task-input" type="text">
+      <label class="tasks__title new-task__title" for="new-task">Add Item</label>
+      <input id="new-task" class="input new-task__input" type="text">
       <button class="button">Add</button>
     </section>
     <section>
-      <h2 class="tasks-title">Todo</h2>
+      <h2 class="tasks__title">Todo</h2>
       <ul class="task-list" id="incomplete-tasks">
         <li class="task-list-item">
           <input type="checkbox" class="input task-list-checkbox">
@@ -39,7 +40,7 @@
       </ul>
     </section>
     <section>
-      <h2 class="tasks-title">Completed</h2>
+      <h2 class="tasks__title">Completed</h2>
       <ul class="task-list" id="completed-tasks">
         <li class="task-list-item">
           <input type="checkbox" class="input task-list-checkbox" checked>
